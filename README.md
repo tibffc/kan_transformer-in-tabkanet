@@ -40,15 +40,7 @@
 ---
 Датасеты должны быть в папке templates/ в следующей структуре:
 
-templates/
-├── bankmarketing/
-│   ├── Fold1/train.csv, val.csv, test.csv
-│   ├── ...
-│   └── Fold5/
-├── onlineshoper/
-│   └── ...
-└── multi_forest/
-    └── ...
+templates/bankmarketing/FoldY/train.csv, val.csv, test.csv
 
 Сравнение KAN vs MLP с прунингом:
 python compare_models.py --dataset bankmarketing --pruning_ratio 0.2
